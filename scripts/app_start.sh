@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/dist
-sudo cp -r /home/ubuntu/dist/*  /var/www/html/
+cd /home/ec2-user/dist
+cp -r /home/ec2-user/dist/*  /usr/share/nginx/html
 sudo systemctl restart nginx
